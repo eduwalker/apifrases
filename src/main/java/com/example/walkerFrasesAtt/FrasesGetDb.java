@@ -17,7 +17,7 @@ public class FrasesGetDb {
         this.frasesDataDbRepository = frasesDataDbRepository;
     }
 
-    @PostConstruct
+
     public void exibirFrases(){
         List<FrasesDataDb> frases = frasesDataDbRepository.findAll();
 
