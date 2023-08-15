@@ -1,9 +1,9 @@
 
 spring:
   datasource:
-    url: jdbc:mysql://aws.connect.psdb.cloud:3306/walkerusers?sslMode=VERIFY_IDENTITY
-    username: tzutbr5vg2lifatvsf7h
-    password: pscale_pw_lBbJ1lkav8KN3DwjeNlH6Py01GcyzcuTH4cXg5rVe5t
+    url: ${URL_HOST}
+    username: ${USER_DB}
+    password: ${DB_PASSWORD}
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
